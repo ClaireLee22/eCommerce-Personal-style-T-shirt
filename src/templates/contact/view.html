@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<div class="text-center">
+  <h1 >{{ title }}</h1>
+  <!-- <h1>Contact Us!</h1> -->
+</div>
+<div class="container">
+  <div class="row">
+      <div class="col">
+          <div class = "col-md-6 col-12 mx-auto">
+              <p class="text-center">{{ content}}</p>
+              <form class="contact-form" method="POST" action="{% url 'contact' %}"> {% csrf_token %}
+                  {{ form.as_p }}
+                  <button type="submit" class="btn btn-secondary">Submit</button>
+              </form>
+
+          </div>
+      </div>
+  </div>
+</div>
+
+{% endblock %}

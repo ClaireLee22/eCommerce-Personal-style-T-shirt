@@ -1,0 +1,44 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "t-shirt",
+        "description": "Unique T-shirt with yellow rectangle logo",
+        "price": "10.99",
+        "image": "products/34934584/34934584.png",
+        "featured": true,
+        "active": true,
+        "timestamp": "2020-04-20T05:12:06.106Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "t-shirt-wep9",
+        "description": "Unique T-shirt with blue round logo",
+        "price": "10.99",
+        "image": "products/8567900/8567900.png",
+        "featured": true,
+        "active": true,
+        "timestamp": "2020-05-10T21:44:34.624Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "t-shirt-eglr",
+        "description": "Unique T-shirt with blue rectangle logo",
+        "price": "10.99",
+        "image": "products/22652225/22652225.png",
+        "featured": true,
+        "active": true,
+        "timestamp": "2020-05-10T21:45:14.122Z"
+    }
+}
+]
