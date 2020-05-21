@@ -3,8 +3,8 @@ import os
 
 AWS_GROUP_NAME = "Claire_ecommerce_Group"
 AWS_USERNAME = "claire-ecommerce-user"
-AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID", "AKIAXWDQMKL7JBKU2TK6")
-AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY", "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")
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
 
 AWS_FILE_EXPIRE = 200
 AWS_PRELOAD_METADATA = True
