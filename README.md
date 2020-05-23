@@ -3,8 +3,7 @@
 
 ## Project Overview
 ### Project Description
-Build a web application to scan the online stores periodically and notify users if price drop of items which they have set up are reached.
-Users can add, remove, edit alerts, whereas only admin is allowed to add, remove, update online stores. 
+Build a eCommerce web application using Django framework. Provide internal search engine to allow users to find products easily. Smooth checkout process and payment integration with Strip.
 
 ### Project Technologies
 - Web framewrok: Django
