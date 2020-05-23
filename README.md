@@ -7,7 +7,7 @@ Build a eCommerce web application using Django framework. Provide internal searc
 
 ### Project Technologies
 - Web framewrok: Django
-- Database: Postgres
+- Database: PostgreSQL
 - Front-end framework: Bootstrap
 - Third-party API: Strip
 
